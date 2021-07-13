@@ -1,0 +1,50 @@
+/*------------- google-fonts=------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,300&display=swap');
+
+/* -----root style-------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* ----------------
+---copa-america banner styele 
+=============================*/
+
+.copa-thambnail{
+    display: flex;
+    padding: 30px 156px;
+    background:  #2D25A0;;
+}
+
+
+.copa-thambnail .copa-title h1{
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+}
+.copa-thambnail .copa-title button {
+    padding: 15px 40px;
+    background: tomato;
+    border: none;
+    border-radius: 5px;  
+    transition:  .5s;
+}
+.copa-thambnail .copa-title button:hover{
+    transform: translate(0px, -5px);
+}
+.copa-thambnail .copa-title button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background: tomato;
+}
+.fas{
+    padding-left: 10px;
+}
+
+.copa-thambnail .copa-banner img{
+    width: 556.01px;
+    height: 438px;
+}
