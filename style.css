@@ -7,10 +7,8 @@ body{
     padding: 0;
     margin: 0;
 }
-/* ----------------
----copa-america banner styele 
-=============================*/
 
+/* ---------------------copa-america copa-banner stylesheet ----------------------*/
 .copa-thambnail{
     display: flex;
     padding: 30px 156px;
@@ -32,7 +30,8 @@ body{
     transition:  .5s;
 }
 .copa-thambnail .copa-title button:hover{
-    transform: translate(0px, -5px);
+   
+    transform: scale(1.06);
 }
 .copa-thambnail .copa-title button a{
     text-decoration: none;
@@ -47,4 +46,35 @@ body{
 .copa-thambnail .copa-banner img{
     width: 556.01px;
     height: 438px;
+}
+
+
+   /*------------------ players-stylesheet-------------------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 1050px;
+    
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.player{
+    width: 330px;
+    padding: 10px;
+    box-shadow: 10px 10px 40px #c7c7c7c9;
+    border-radius: 10px;
+   
+}
+.player .player-pic img{
+    width: 100%;
 }
