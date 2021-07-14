@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,300&display=swap');
 
 
-/* -----root style-------- */
-body{
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
-}
 
 
 
@@ -17,9 +11,15 @@ main{
     flex-direction: column;
     align-items: center;
 }
-
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 section{
-    margin-bottom: 50px;
+    
+    margin: 50px 0px;
 }
 
 
@@ -112,9 +112,10 @@ section{
 /*-------------------------- footer-style-sheet--------------------------------- */
 
 footer{
-    margin-top: 100px;
+    margin: 100px 0px;
     display: flex;
     justify-content: center;
+
 }
 .footer-wrap{
 
@@ -145,10 +146,11 @@ footer{
         display: flex;
         justify-content: center;
         padding-left: 5%;
+       
     }
     .copa-thambnail{
-        display: grid;
-        grid-template-columns:repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
         width: 100%;
         
     }
@@ -172,11 +174,13 @@ footer{
     .players{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+       
     }
     .player{
         display:flex ;
         flex-direction: column;
         align-items: center;
+        
     }
     
 
@@ -187,7 +191,7 @@ footer{
         width: 100%;
     }
     .footer-logo img{
-        width: 300px;
+        width: 250px;
     }
 
     
