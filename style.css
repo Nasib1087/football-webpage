@@ -32,19 +32,22 @@ section{
 /* ---------------------copa-america copa-banner stylesheet ----------------------*/
 
 
-.copa-wrapper{
-    background:  #2D25A0;
-}
+
+
 
 .copa-thambnail{
     display: flex;
     justify-content: space-between;
-    padding: 30px 200px;
-    background:  #2D25A0;;
+   background: #2D25A0;
+    padding: 30px 200px;    
 }
 
-
-
+.copa-title{
+    width: 50%;
+}
+.copa-banner{
+    width: 50%;
+}
 .copa-thambnail .copa-title h1{
     font-size: 64px;
     color: white;
@@ -103,4 +106,50 @@ section{
 }
 .player .player-pic img{
     width: 100%;
+}
+
+/* ------------------------highlights style-sheet------------------------------ */
+
+
+
+.highlight{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin-left: 80px;
+}
+.highlight .highlight-text h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.highlight-pic img{
+    width: 567px;
+    height: 427px;
+    
+}
+/*-------------------------- footer-style-sheet--------------------------------- */
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.footer-wrap{
+
+    width: 485px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+
+.footer-logo img{
+    width: 483px;
+}
+.foot-icon{
+    color: darkgray;
+    padding: 5px;
 }
